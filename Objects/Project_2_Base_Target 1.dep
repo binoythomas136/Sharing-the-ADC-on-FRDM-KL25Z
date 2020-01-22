@@ -1,0 +1,326 @@
+Dependencies for Project 'Project_2_Base', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Source\control.c)(0x5DE31E80)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O3 -Otime --apcs=interwork --split_sections -I ./Include -I ./Source -I ./Source/LCD -I ./Source/Profiler-I.\RTE\CMSIS-I.\RTE\Device\MKL25Z128xxx4-I.\RTE\_Target_1-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\RTX\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include"-D__UVISION_VERSION="528" -D_RTE_ -DMKL25Z128xxx4 -DCLOCK_SETUP="1"-o .\objects\control.o --omf_browse .\objects\control.crf --depend .\objects\control.d)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.H)(0x585C4EFA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC4CD2)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0plus.h)(0x5C8C32E6)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B97E734)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C9020C4)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C9020C4)
+I (.\RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x5DE2C44A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEC4CD2)
+I (./Include/gpio_defs.h)(0x5DE2C448)
+I (./Include/debug.h)(0x5DE2C448)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include\cmsis_os2.h)(0x5C8FEA88)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEC4CD2)
+I (Source\control.h)(0x5DE31A75)
+I (Source\FX.h)(0x5DE2C44C)
+I (./Include/config.h)(0x5DE2C448)
+I (Source\UI.h)(0x5DE2C44C)
+I (./Source/LCD/LCD.h)(0x5DE2C44C)
+I (./Include/misc.h)(0x5DE2C448)
+I (./Source/LCD/colors.h)(0x5DE2C44C)
+I (./Include/timers.h)(0x5DE2C448)
+I (./Include/delay.h)(0x5DE2C448)
+I (./Include/LEDs.h)(0x5DE2C448)
+I (./Include/threads.h)(0x5DE31498)
+I (./Source/LCD/LCD_driver.h)(0x5DE2C44D)
+F (.\Source\debug.c)(0x5DE2C44C)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O3 -Otime --apcs=interwork --split_sections -I ./Include -I ./Source -I ./Source/LCD -I ./Source/Profiler-I.\RTE\CMSIS-I.\RTE\Device\MKL25Z128xxx4-I.\RTE\_Target_1-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\RTX\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include"-D__UVISION_VERSION="528" -D_RTE_ -DMKL25Z128xxx4 -DCLOCK_SETUP="1"-o .\objects\debug.o --omf_browse .\objects\debug.crf --depend .\objects\debug.d)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.H)(0x585C4EFA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC4CD2)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0plus.h)(0x5C8C32E6)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B97E734)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C9020C4)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C9020C4)
+I (.\RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x5DE2C44A)
+I (./Include/debug.h)(0x5DE2C448)
+F (.\Source\delay.c)(0x5DE2C44C)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O3 -Otime --apcs=interwork --split_sections -I ./Include -I ./Source -I ./Source/LCD -I ./Source/Profiler-I.\RTE\CMSIS-I.\RTE\Device\MKL25Z128xxx4-I.\RTE\_Target_1-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\RTX\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include"-D__UVISION_VERSION="528" -D_RTE_ -DMKL25Z128xxx4 -DCLOCK_SETUP="1"-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.H)(0x585C4EFA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC4CD2)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0plus.h)(0x5C8C32E6)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B97E734)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C9020C4)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C9020C4)
+I (.\RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x5DE2C44A)
+F (.\Source\DMA.c)(0x5DE2C44C)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O3 -Otime --apcs=interwork --split_sections -I ./Include -I ./Source -I ./Source/LCD -I ./Source/Profiler-I.\RTE\CMSIS-I.\RTE\Device\MKL25Z128xxx4-I.\RTE\_Target_1-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\RTX\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include"-D__UVISION_VERSION="528" -D_RTE_ -DMKL25Z128xxx4 -DCLOCK_SETUP="1"-o .\objects\dma.o --omf_browse .\objects\dma.crf --depend .\objects\dma.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC4CD2)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.h)(0x585C4EFA)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0plus.h)(0x5C8C32E6)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B97E734)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C9020C4)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C9020C4)
+I (.\RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x5DE2C44A)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include\cmsis_os2.h)(0x5C8FEA88)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEC4CD2)
+I (./Include/timers.h)(0x5DE2C448)
+I (./Include/LEDs.h)(0x5DE2C448)
+I (./Include/threads.h)(0x5DE31498)
+I (./Source/LCD/LCD_driver.h)(0x5DE2C44D)
+I (./Include/gpio_defs.h)(0x5DE2C448)
+I (./Include/debug.h)(0x5DE2C448)
+F (.\Source\FX.c)(0x5DE2C44C)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O3 -Otime --apcs=interwork --split_sections -I ./Include -I ./Source -I ./Source/LCD -I ./Source/Profiler-I.\RTE\CMSIS-I.\RTE\Device\MKL25Z128xxx4-I.\RTE\_Target_1-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\RTX\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include"-D__UVISION_VERSION="528" -D_RTE_ -DMKL25Z128xxx4 -DCLOCK_SETUP="1"-o .\objects\fx.o --omf_browse .\objects\fx.crf --depend .\objects\fx.d)
+I (Source\FX.h)(0x5DE2C44C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC4CD2)
+F (.\Source\LEDs.c)(0x5DE2C44C)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O3 -Otime --apcs=interwork --split_sections -I ./Include -I ./Source -I ./Source/LCD -I ./Source/Profiler-I.\RTE\CMSIS-I.\RTE\Device\MKL25Z128xxx4-I.\RTE\_Target_1-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\RTX\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include"-D__UVISION_VERSION="528" -D_RTE_ -DMKL25Z128xxx4 -DCLOCK_SETUP="1"-o .\objects\leds.o --omf_browse .\objects\leds.crf --depend .\objects\leds.d)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.H)(0x585C4EFA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC4CD2)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0plus.h)(0x5C8C32E6)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B97E734)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C9020C4)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C9020C4)
+I (.\RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x5DE2C44A)
+I (./Include/LEDs.h)(0x5DE2C448)
+I (./Include/gpio_defs.h)(0x5DE2C448)
+F (.\Source\main.c)(0x5DE2C44C)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O3 -Otime --apcs=interwork --split_sections -I ./Include -I ./Source -I ./Source/LCD -I ./Source/Profiler-I.\RTE\CMSIS-I.\RTE\Device\MKL25Z128xxx4-I.\RTE\_Target_1-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\RTX\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include"-D__UVISION_VERSION="528" -D_RTE_ -DMKL25Z128xxx4 -DCLOCK_SETUP="1"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.H)(0x585C4EFA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC4CD2)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0plus.h)(0x5C8C32E6)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B97E734)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C9020C4)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C9020C4)
+I (.\RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x5DE2C44A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEC4CD2)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEC4CC6)
+I (./Include/gpio_defs.h)(0x5DE2C448)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include\cmsis_os2.h)(0x5C8FEA88)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEC4CD2)
+I (./Include/threads.h)(0x5DE31498)
+I (./Source/LCD/LCD_driver.h)(0x5DE2C44D)
+I (./Source/LCD/LCD.h)(0x5DE2C44C)
+I (./Include/misc.h)(0x5DE2C448)
+I (./Source/LCD/colors.h)(0x5DE2C44C)
+I (./Source/LCD/font.h)(0x5DE2C44C)
+I (./Include/LEDs.h)(0x5DE2C448)
+I (./Include/timers.h)(0x5DE2C448)
+I (./Include/sound.h)(0x5DE2C448)
+I (./Include/DMA.h)(0x5DE2C448)
+I (./Include/delay.h)(0x5DE2C448)
+I (./Source/Profiler/profile.h)(0x5DE2C44D)
+I (Source\control.h)(0x5DE31A75)
+I (Source\FX.h)(0x5DE2C44C)
+I (./Include/config.h)(0x5DE2C448)
+I (Source\UI.h)(0x5DE2C44C)
+F (.\Source\sound.c)(0x5DE2C44C)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O3 -Otime --apcs=interwork --split_sections -I ./Include -I ./Source -I ./Source/LCD -I ./Source/Profiler-I.\RTE\CMSIS-I.\RTE\Device\MKL25Z128xxx4-I.\RTE\_Target_1-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\RTX\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include"-D__UVISION_VERSION="528" -D_RTE_ -DMKL25Z128xxx4 -DCLOCK_SETUP="1"-o .\objects\sound.o --omf_browse .\objects\sound.crf --depend .\objects\sound.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC4CD2)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.h)(0x585C4EFA)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0plus.h)(0x5C8C32E6)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B97E734)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C9020C4)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C9020C4)
+I (.\RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x5DE2C44A)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5CEC4CC6)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include\cmsis_os2.h)(0x5C8FEA88)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEC4CD2)
+I (./Include/sound.h)(0x5DE2C448)
+I (./Include/misc.h)(0x5DE2C448)
+I (./Include/delay.h)(0x5DE2C448)
+I (./Include/gpio_defs.h)(0x5DE2C448)
+I (./Include/timers.h)(0x5DE2C448)
+I (./Include/DMA.h)(0x5DE2C448)
+I (./Include/threads.h)(0x5DE31498)
+I (./Source/LCD/LCD_driver.h)(0x5DE2C44D)
+I (./Include/debug.h)(0x5DE2C448)
+F (.\Source\threads.c)(0x5DE31927)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O3 -Otime --apcs=interwork --split_sections -I ./Include -I ./Source -I ./Source/LCD -I ./Source/Profiler-I.\RTE\CMSIS-I.\RTE\Device\MKL25Z128xxx4-I.\RTE\_Target_1-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\RTX\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include"-D__UVISION_VERSION="528" -D_RTE_ -DMKL25Z128xxx4 -DCLOCK_SETUP="1"-o .\objects\threads.o --omf_browse .\objects\threads.crf --depend .\objects\threads.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC4CD2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEC4CD2)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include\cmsis_os2.h)(0x5C8FEA88)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEC4CD2)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.h)(0x585C4EFA)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0plus.h)(0x5C8C32E6)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B97E734)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C9020C4)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C9020C4)
+I (.\RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x5DE2C44A)
+I (./Source/LCD/LCD.h)(0x5DE2C44C)
+I (./Include/misc.h)(0x5DE2C448)
+I (./Source/LCD/colors.h)(0x5DE2C44C)
+I (./Source/LCD/touchscreen.h)(0x5DE2C44D)
+I (./Source/LCD/LCD_driver.h)(0x5DE2C44D)
+I (./Source/LCD/font.h)(0x5DE2C44C)
+I (./Include/threads.h)(0x5DE31498)
+I (./Include/sound.h)(0x5DE2C448)
+I (./Include/DMA.h)(0x5DE2C448)
+I (./Include/gpio_defs.h)(0x5DE2C448)
+I (./Include/debug.h)(0x5DE2C448)
+I (Source\control.h)(0x5DE31A75)
+I (Source\FX.h)(0x5DE2C44C)
+I (./Include/config.h)(0x5DE2C448)
+I (Source\UI.h)(0x5DE2C44C)
+I (./Source/LCD/ST7789.h)(0x5DE2C44D)
+I (./Source/LCD/T6963.h)(0x5DE2C44D)
+F (.\Source\timers.c)(0x5DE2C44C)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O3 -Otime --apcs=interwork --split_sections -I ./Include -I ./Source -I ./Source/LCD -I ./Source/Profiler-I.\RTE\CMSIS-I.\RTE\Device\MKL25Z128xxx4-I.\RTE\_Target_1-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\RTX\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include"-D__UVISION_VERSION="528" -D_RTE_ -DMKL25Z128xxx4 -DCLOCK_SETUP="1"-o .\objects\timers.o --omf_browse .\objects\timers.crf --depend .\objects\timers.d)
+I (./Include/timers.h)(0x5DE2C448)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.h)(0x585C4EFA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC4CD2)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0plus.h)(0x5C8C32E6)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B97E734)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C9020C4)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C9020C4)
+I (.\RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x5DE2C44A)
+I (./Source/Profiler/region.h)(0x5DE2C44D)
+I (./Source/Profiler/profile.h)(0x5DE2C44D)
+I (./Include/debug.h)(0x5DE2C448)
+I (Source\control.h)(0x5DE31A75)
+I (Source\FX.h)(0x5DE2C44C)
+I (./Include/config.h)(0x5DE2C448)
+I (Source\UI.h)(0x5DE2C44C)
+I (./Source/LCD/LCD.h)(0x5DE2C44C)
+I (./Include/misc.h)(0x5DE2C448)
+I (./Source/LCD/colors.h)(0x5DE2C44C)
+F (.\Source\UI.c)(0x5DE31DCE)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O3 -Otime --apcs=interwork --split_sections -I ./Include -I ./Source -I ./Source/LCD -I ./Source/Profiler-I.\RTE\CMSIS-I.\RTE\Device\MKL25Z128xxx4-I.\RTE\_Target_1-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\RTX\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include"-D__UVISION_VERSION="528" -D_RTE_ -DMKL25Z128xxx4 -DCLOCK_SETUP="1"-o .\objects\ui.o --omf_browse .\objects\ui.crf --depend .\objects\ui.d)
+I (Source\UI.h)(0x5DE2C44C)
+I (./Source/LCD/LCD.h)(0x5DE2C44C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC4CD2)
+I (./Include/misc.h)(0x5DE2C448)
+I (./Source/LCD/colors.h)(0x5DE2C44C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEC4CD2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5CEC4CD2)
+I (./Source/LCD/ST7789.h)(0x5DE2C44D)
+I (./Source/LCD/LCD_driver.h)(0x5DE2C44D)
+I (./Source/LCD/T6963.h)(0x5DE2C44D)
+I (./Source/LCD/font.h)(0x5DE2C44C)
+I (Source\control.h)(0x5DE31A75)
+I (Source\FX.h)(0x5DE2C44C)
+I (./Include/config.h)(0x5DE2C448)
+I (./Include/timers.h)(0x5DE2C448)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.h)(0x585C4EFA)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0plus.h)(0x5C8C32E6)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B97E734)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C9020C4)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C9020C4)
+I (.\RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x5DE2C44A)
+I (./Include/threads.h)(0x5DE31498)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include\cmsis_os2.h)(0x5C8FEA88)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEC4CD2)
+I (./Include/debug.h)(0x5DE2C448)
+F (.\Source\LCD\LCD_graphics.c)(0x5DE2C44D)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O3 -Otime --apcs=interwork --split_sections -I ./Include -I ./Source -I ./Source/LCD -I ./Source/Profiler-I.\RTE\CMSIS-I.\RTE\Device\MKL25Z128xxx4-I.\RTE\_Target_1-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\RTX\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include"-D__UVISION_VERSION="528" -D_RTE_ -DMKL25Z128xxx4 -DCLOCK_SETUP="1"-o .\objects\lcd_graphics.o --omf_browse .\objects\lcd_graphics.crf --depend .\objects\lcd_graphics.d)
+I (Source\LCD\LCD.h)(0x5DE2C44C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC4CD2)
+I (./Include/misc.h)(0x5DE2C448)
+I (Source\LCD\colors.h)(0x5DE2C44C)
+I (Source\LCD\LCD_driver.h)(0x5DE2C44D)
+I (Source\LCD\ST7789.h)(0x5DE2C44D)
+I (Source\LCD\T6963.h)(0x5DE2C44D)
+F (.\Source\LCD\LCD_text.c)(0x5DE2C44D)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O3 -Otime --apcs=interwork --split_sections -I ./Include -I ./Source -I ./Source/LCD -I ./Source/Profiler-I.\RTE\CMSIS-I.\RTE\Device\MKL25Z128xxx4-I.\RTE\_Target_1-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\RTX\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include"-D__UVISION_VERSION="528" -D_RTE_ -DMKL25Z128xxx4 -DCLOCK_SETUP="1"-o .\objects\lcd_text.o --omf_browse .\objects\lcd_text.crf --depend .\objects\lcd_text.d)
+I (Source\LCD\font.h)(0x5DE2C44C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC4CD2)
+I (Source\LCD\LCD.h)(0x5DE2C44C)
+I (./Include/misc.h)(0x5DE2C448)
+I (Source\LCD\colors.h)(0x5DE2C44C)
+I (Source\LCD\LCD_driver.h)(0x5DE2C44D)
+I (Source\LCD\ST7789.h)(0x5DE2C44D)
+I (Source\LCD\T6963.h)(0x5DE2C44D)
+I (./Include/delay.h)(0x5DE2C448)
+F (.\Source\LCD\lucida_8x13.c)(0x5DE2C44D)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O3 -Otime --apcs=interwork --split_sections -I ./Include -I ./Source -I ./Source/LCD -I ./Source/Profiler-I.\RTE\CMSIS-I.\RTE\Device\MKL25Z128xxx4-I.\RTE\_Target_1-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\RTX\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include"-D__UVISION_VERSION="528" -D_RTE_ -DMKL25Z128xxx4 -DCLOCK_SETUP="1"-o .\objects\lucida_8x13.o --omf_browse .\objects\lucida_8x13.crf --depend .\objects\lucida_8x13.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC4CD2)
+F (.\Source\LCD\lucida_12x19.c)(0x5DE2C44D)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O3 -Otime --apcs=interwork --split_sections -I ./Include -I ./Source -I ./Source/LCD -I ./Source/Profiler-I.\RTE\CMSIS-I.\RTE\Device\MKL25Z128xxx4-I.\RTE\_Target_1-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\RTX\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include"-D__UVISION_VERSION="528" -D_RTE_ -DMKL25Z128xxx4 -DCLOCK_SETUP="1"-o .\objects\lucida_12x19.o --omf_browse .\objects\lucida_12x19.crf --depend .\objects\lucida_12x19.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC4CD2)
+F (.\Source\LCD\lucida_20x31.c)(0x5DE2C44D)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O3 -Otime --apcs=interwork --split_sections -I ./Include -I ./Source -I ./Source/LCD -I ./Source/Profiler-I.\RTE\CMSIS-I.\RTE\Device\MKL25Z128xxx4-I.\RTE\_Target_1-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\RTX\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include"-D__UVISION_VERSION="528" -D_RTE_ -DMKL25Z128xxx4 -DCLOCK_SETUP="1"-o .\objects\lucida_20x31.o --omf_browse .\objects\lucida_20x31.crf --depend .\objects\lucida_20x31.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC4CD2)
+F (.\Source\LCD\ST7789.c)(0x5DE2C44D)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O3 -Otime --apcs=interwork --split_sections -I ./Include -I ./Source -I ./Source/LCD -I ./Source/Profiler-I.\RTE\CMSIS-I.\RTE\Device\MKL25Z128xxx4-I.\RTE\_Target_1-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\RTX\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include"-D__UVISION_VERSION="528" -D_RTE_ -DMKL25Z128xxx4 -DCLOCK_SETUP="1"-o .\objects\st7789.o --omf_browse .\objects\st7789.crf --depend .\objects\st7789.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC4CD2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEC4CD2)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include\cmsis_os2.h)(0x5C8FEA88)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEC4CD2)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.h)(0x585C4EFA)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0plus.h)(0x5C8C32E6)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B97E734)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C9020C4)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C9020C4)
+I (.\RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x5DE2C44A)
+I (Source\LCD\LCD.h)(0x5DE2C44C)
+I (./Include/misc.h)(0x5DE2C448)
+I (Source\LCD\colors.h)(0x5DE2C44C)
+I (Source\LCD\LCD_driver.h)(0x5DE2C44D)
+I (Source\LCD\font.h)(0x5DE2C44C)
+I (./Include/gpio_defs.h)(0x5DE2C448)
+I (./Include/timers.h)(0x5DE2C448)
+I (Source\LCD\ST7789.h)(0x5DE2C44D)
+F (.\Source\LCD\T6963.c)(0x5DE2C44D)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O3 -Otime --apcs=interwork --split_sections -I ./Include -I ./Source -I ./Source/LCD -I ./Source/Profiler-I.\RTE\CMSIS-I.\RTE\Device\MKL25Z128xxx4-I.\RTE\_Target_1-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\RTX\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include"-D__UVISION_VERSION="528" -D_RTE_ -DMKL25Z128xxx4 -DCLOCK_SETUP="1"-o .\objects\t6963.o --omf_browse .\objects\t6963.crf --depend .\objects\t6963.d)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.h)(0x585C4EFA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC4CD2)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0plus.h)(0x5C8C32E6)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B97E734)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C9020C4)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C9020C4)
+I (.\RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x5DE2C44A)
+I (Source\LCD\LCD.h)(0x5DE2C44C)
+I (./Include/misc.h)(0x5DE2C448)
+I (Source\LCD\colors.h)(0x5DE2C44C)
+I (Source\LCD\LCD_driver.h)(0x5DE2C44D)
+I (Source\LCD\font.h)(0x5DE2C44C)
+I (./Include/gpio_defs.h)(0x5DE2C448)
+I (./Include/timers.h)(0x5DE2C448)
+F (.\Source\LCD\touchscreen.c)(0x5DE2C9D6)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O3 -Otime --apcs=interwork --split_sections -I ./Include -I ./Source -I ./Source/LCD -I ./Source/Profiler-I.\RTE\CMSIS-I.\RTE\Device\MKL25Z128xxx4-I.\RTE\_Target_1-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\RTX\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include"-D__UVISION_VERSION="528" -D_RTE_ -DMKL25Z128xxx4 -DCLOCK_SETUP="1"-o .\objects\touchscreen.o --omf_browse .\objects\touchscreen.crf --depend .\objects\touchscreen.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC4CD2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEC4CD2)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include\cmsis_os2.h)(0x5C8FEA88)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEC4CD2)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.h)(0x585C4EFA)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0plus.h)(0x5C8C32E6)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B97E734)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C9020C4)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C9020C4)
+I (.\RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x5DE2C44A)
+I (Source\LCD\LCD.h)(0x5DE2C44C)
+I (./Include/misc.h)(0x5DE2C448)
+I (Source\LCD\colors.h)(0x5DE2C44C)
+I (Source\LCD\LCD_driver.h)(0x5DE2C44D)
+I (Source\LCD\ST7789.h)(0x5DE2C44D)
+I (Source\LCD\T6963.h)(0x5DE2C44D)
+I (Source\LCD\font.h)(0x5DE2C44C)
+I (./Include/gpio_defs.h)(0x5DE2C448)
+I (./Include/timers.h)(0x5DE2C448)
+I (./Include/config.h)(0x5DE2C448)
+I (./Include/threads.h)(0x5DE31498)
+I (./Include/debug.h)(0x5DE2C448)
+F (.\Source\LCD\colors.c)(0x5DE2C44C)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O3 -Otime --apcs=interwork --split_sections -I ./Include -I ./Source -I ./Source/LCD -I ./Source/Profiler-I.\RTE\CMSIS-I.\RTE\Device\MKL25Z128xxx4-I.\RTE\_Target_1-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\RTX\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include"-D__UVISION_VERSION="528" -D_RTE_ -DMKL25Z128xxx4 -DCLOCK_SETUP="1"-o .\objects\colors.o --omf_browse .\objects\colors.crf --depend .\objects\colors.d)
+I (Source\LCD\colors.h)(0x5DE2C44C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC4CD2)
+F (.\Source\Profiler\profile.c)(0x5DE2C44D)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O3 -Otime --apcs=interwork --split_sections -I ./Include -I ./Source -I ./Source/LCD -I ./Source/Profiler-I.\RTE\CMSIS-I.\RTE\Device\MKL25Z128xxx4-I.\RTE\_Target_1-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\RTX\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include"-D__UVISION_VERSION="528" -D_RTE_ -DMKL25Z128xxx4 -DCLOCK_SETUP="1"-o .\objects\profile.o --omf_browse .\objects\profile.crf --depend .\objects\profile.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5CEC4CD2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC4CD2)
+I (./Include/timers.h)(0x5DE2C448)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.h)(0x585C4EFA)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0plus.h)(0x5C8C32E6)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B97E734)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C9020C4)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C9020C4)
+I (.\RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x5DE2C44A)
+I (Source\Profiler\region.h)(0x5DE2C44D)
+I (Source\Profiler\profile.h)(0x5DE2C44D)
+F (.\Source\Profiler\region.c)(0x5DE2C44D)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O3 -Otime --apcs=interwork --split_sections -I ./Include -I ./Source -I ./Source/LCD -I ./Source/Profiler-I.\RTE\CMSIS-I.\RTE\Device\MKL25Z128xxx4-I.\RTE\_Target_1-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\RTX\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include"-D__UVISION_VERSION="528" -D_RTE_ -DMKL25Z128xxx4 -DCLOCK_SETUP="1"-o .\objects\region.o --omf_browse .\objects\region.crf --depend .\objects\region.d)
+I (Source\Profiler\region.h)(0x5DE2C44D)
+F (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\RTX\Library\ARM\RTX_CM0.lib)(0x5C8C32EA)()
+F (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\RTX\Source\rtx_lib.c)(0x5C9020C4)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O3 -Otime --apcs=interwork --split_sections -I ./Include -I ./Source -I ./Source/LCD -I ./Source/Profiler-I.\RTE\CMSIS-I.\RTE\Device\MKL25Z128xxx4-I.\RTE\_Target_1-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\RTX\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include"-D__UVISION_VERSION="528" -D_RTE_ -DMKL25Z128xxx4 -DCLOCK_SETUP="1"-o .\objects\rtx_lib.o --omf_browse .\objects\rtx_lib.crf --depend .\objects\rtx_lib.d)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C9020C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC4CD2)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C9020C4)
+I (.\RTE\CMSIS\RTX_Config.h)(0x5DE2C44A)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5DE2C44A)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\RTX\Include\rtx_os.h)(0x5C9020C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEC4CD2)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include\cmsis_os2.h)(0x5C8FEA88)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\RTX\Include\rtx_evr.h)(0x5C9020C4)
+F (RTE\CMSIS\RTX_Config.c)(0x5DE2C44A)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O3 -Otime --apcs=interwork --split_sections -I ./Include -I ./Source -I ./Source/LCD -I ./Source/Profiler-I.\RTE\CMSIS-I.\RTE\Device\MKL25Z128xxx4-I.\RTE\_Target_1-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\RTX\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include"-D__UVISION_VERSION="528" -D_RTE_ -DMKL25Z128xxx4 -DCLOCK_SETUP="1"-o .\objects\rtx_config.o --omf_browse .\objects\rtx_config.crf --depend .\objects\rtx_config.d)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C9020C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC4CD2)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C9020C4)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\RTX\Include\rtx_os.h)(0x5C9020C4)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEC4CD2)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include\cmsis_os2.h)(0x5C8FEA88)
+I (./Include/debug.h)(0x5DE2C448)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.h)(0x585C4EFA)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0plus.h)(0x5C8C32E6)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B97E734)
+I (.\RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x5DE2C44A)
+F (RTE\CMSIS\RTX_Config.h)(0x5DE2C44A)()
+F (RTE\Device\MKL25Z128xxx4\startup_MKL25Z4.s)(0x5DE2C44A)(--cpu Cortex-M0+ --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\CMSIS-I.\RTE\Device\MKL25Z128xxx4-I.\RTE\_Target_1-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\RTX\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include"--pd "__UVISION_VERSION SETA 528" --pd "_RTE_ SETA 1" --pd "MKL25Z128xxx4 SETA 1"--list .\listings\startup_mkl25z4.lst --xref -o .\objects\startup_mkl25z4.o --depend .\objects\startup_mkl25z4.d)
+F (RTE\Device\MKL25Z128xxx4\system_MKL25Z4.c)(0x5DE2C44A)(--c99 -c --cpu Cortex-M0+ -D__EVAL -g -O3 -Otime --apcs=interwork --split_sections -I ./Include -I ./Source -I ./Source/LCD -I ./Source/Profiler-I.\RTE\CMSIS-I.\RTE\Device\MKL25Z128xxx4-I.\RTE\_Target_1-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\RTOS2\RTX\Include"-I"C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include"-D__UVISION_VERSION="528" -D_RTE_ -DMKL25Z128xxx4 -DCLOCK_SETUP="1"-o .\objects\system_mkl25z4.o --omf_browse .\objects\system_mkl25z4.crf --depend .\objects\system_mkl25z4.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEC4CD2)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\Keil\Kinetis_KLxx_DFP\1.15.0\Device\Include\MKL25Z4.h)(0x585C4EFA)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm0plus.h)(0x5C8C32E6)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B97E734)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C9020C4)
+I (C:\Users\Binoy Thomas\AppData\Local\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C9020C4)
+I (.\RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x5DE2C44A)
+F (RTE\Device\MKL25Z128xxx4\system_MKL25Z4.h)(0x5DE2C44A)()

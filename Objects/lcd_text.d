@@ -1,0 +1,10 @@
+.\objects\lcd_text.o: Source\LCD\LCD_text.c
+.\objects\lcd_text.o: Source\LCD\font.h
+.\objects\lcd_text.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\lcd_text.o: Source\LCD\LCD.h
+.\objects\lcd_text.o: ./Include/misc.h
+.\objects\lcd_text.o: Source\LCD\colors.h
+.\objects\lcd_text.o: Source\LCD\LCD_driver.h
+.\objects\lcd_text.o: Source\LCD\ST7789.h
+.\objects\lcd_text.o: Source\LCD\T6963.h
+.\objects\lcd_text.o: ./Include/delay.h
